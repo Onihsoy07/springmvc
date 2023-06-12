@@ -1,1 +1,6 @@
-
+#hello.springmvc 하위 패키지 로그 레벨 설정
+logging:
+  level:
+    root: info
+    hello:
+      springmvc: debug
